@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<!-- <meta property="og:title" content="Enzy">
+	<meta property="og:description" content="My name is yasno :0">
+	<meta property="og:image" content="https://avatars.githubusercontent.com/u/65571116?v=4"> -->
+	<link rel="icon" type="image/ico" href="content/other/icon.ico">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Enzy</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+	<div class="background-video">
+		<video autoplay loop muted>
+		</video>
+	</div>
+	<!-- <marquee behavior="scroll" direction="left" scrollamount="10">
+		<h1 class="scroll-name">Enzy</h1>
+	</marquee> -->  <!-- Позже доделать -->
+	<div class="container">
+		<div class="content-wrapper">
+			<div class="left-content">
+				<div class="rectangle">
+					<div class="content">
+						<div class="aaa">
+							<!-- <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank"> -->
+							<img class="avatar" src="content/other/avatar2.gif" alt="Avatar">
+							<!-- <video autoplay loop muted class="avatar">
+								<source src="content/other/avatar1.mp4" type="video/mp4">
+							</video> -->
+							<!-- <img class="hat" src="content/other/new year's hat.png" alt="Hat"> -->
+							<!-- </a> -->
+						</div>
+						<h1 class="nickname">Enzy</h1>
+						<!-- <div class="discord">
+							<a href="https://discordapp.com/users/969282507558240327/ " target="_blank">
+								<img src="content/icons/sociallink/discord.svg" alt="Discord">
+							</a>
+						</div> --> <!-- Позже доделать -->
+						<img src="content/icons/sociallink/discord.svg" class="discord">
+						<div class="social-links social-links-rectangle">
+							<a href="https://github.com/okost228" target="_blank">
+								<img src="content/icons/sociallink/github.svg" alt="Github">
+							</a>
+							<a href="https://t.me/enzy_dmitriev" target="_blank">
+								<img src="content/icons/sociallink/telegram.svg" alt="Telegram">
+							</a>
+							<a href="https://vk.com/enzy.dmitriev" target="_blank">
+								<img src="content/icons/sociallink/vk.svg" alt="VK">
+							</a>
+							<a href="https://steamcommunity.com/id/offtopenzy" target="_blank">
+								<img src="content/icons/sociallink/steam.svg" alt="Steam">
+							</a>
+							<a href="https://www.roblox.com/users/839213992/profile" target="_blank">
+								<img src="content/icons/sociallink/roblox.svg" alt="Roblox">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="player">
+					<div class="details">
+						<h1 class="track-na">Track Artist - Track Name</h1>
+					</div>
+
+					<div class="slider_container">
+						<h1 class="current-time">00:00</h1>
+						<input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+						<h1 class="total-duration">00:00</h1>
+					</div>
+
+					<div class="slider_container">
+						<img src="content/icons/player/new/volume-off.svg" alt="Volume Off">
+						<input type="range" min="0" max="100" value="50" class="volume_slider" onchange="setVolume()">
+						<img src="content/icons/player/new/volume-max.svg" alt="Volume Max">
+					</div>
+
+					<div class="buttons">
+						<div class="prev-track" onclick="prevTrack()">
+							<img src="content/icons/player/new/back-step.svg" alt="Previous">
+						</div>
+						<div class="playpause-track" onclick="playpauseTrack()">
+							<img src="content/icons/player/new/play.svg" alt="Play">
+						</div>
+						<div class="next-track" onclick="nextTrack()">
+							<img src="content/icons/player/new/next-step.svg" alt="Next">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="right-content">
+				<div class="rectangle-right">
+					<h1 class="hithere">Hi there 👋</h1>
+					<p class="nometa">Write directly to the point. 📝</p>
+					<p class="ctelegram">My telegram: <a href="https://t.me/enzy_dmitriev" target="_blank" class="ctelegram2">@enzy_dmitriev</a> 📩</p>
+					<video autoplay loop muted class="ayanami">
+						<source src="content/other/ayanami.mp4" type="video/mp4">
+					</video>
+				</div>
+				<div id="expand-button" class="rectangle-button">
+					<img class="arrow" src="content/icons/arrow.svg" alt="Expand">
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/script.js"></script>
+	<!-- <script src="js/snow.js"></script> -->
+	<!-- <script src="js/snow.js">
+		window.onload = function () {
+			snowflakes.snowColor = "#fff";
+			snowflakes.flakesMaxActive = 80; // default 64
+			snowflakes.animationInterval = 33; // default 33
+			snowflakes.followMouse = true;
+			snowflakes.snowCharacter = "&bull;", "*"; // Вид снежинки
+		};
+	</script> -->
+	<!-- <script src="js/discord.js"></script> -->
+	<script src="js/player.js"></script>
+	<!-- <script src="js/cursor.js"></script> -->
+</body>
+
+</html>
