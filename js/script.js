@@ -91,7 +91,6 @@ document.addEventListener("DOMContentLoaded", function () {
     "content/background/video4.mp4",
     "content/background/video5.mp4",
     "content/background/video6.mp4",
-    "content/background/video7.mp4",
   ];
 
   const randomIndex = Math.floor(Math.random() * videoFiles.length);
